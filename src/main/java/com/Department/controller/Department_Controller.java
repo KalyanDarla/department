@@ -36,9 +36,4 @@ public class Department_Controller {
 		Logger.info("Department id",id);
 		return departmentImpl.getById(id);
 	}
-	@GetMapping("/{id}")
-	public Department findById1(@PathVariable("id") long id) {
-		Logger.info("Department id",id);
-		return departmentImpl.getById(id);
-	}
 }
